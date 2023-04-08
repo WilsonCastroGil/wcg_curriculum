@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    background-color: black;
+    /*font-size: 16px;
+    color: #fffafa;
+    margin: 0;
+    padding: 0;*/
+}
+
+/* Estilos generales */
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+/* Los estilos del header */
+header {
+    background: #1f1f1f;
+    padding: 10px 50px;
+}
+
+#logo {
+    width: 10%;
+}
+/*
+#logo img {
+    border-radius: 100%;
+    border: 2px solid #fff; 
+}
+*/
+/* Los estilos del hero */
+#hero {
+    position: relative;
+    
+}
+
+#hero #computadora {
+    display: block; /*inline-block; */    
+    width: 100%;  /*100%;*/
+}
+
+#hero .informacion-contenedor {
+    position: absolute;
+    bottom: 25%;
+    transform: translateY(-50%);
+    left: 5%;
+    display: flex;
+    width: 100%;
+    color: #fff;
+    padding: 0 50px;
+}
+
+#hero .informacion-contenedor #foto {
+    width: 200px;;
+}
+
+#hero .informacion-contenedor #foto img {
+    border-radius: 100%;
+}
+
+#hero .informacion-contenedor .informacion {
+    margin-left: 20px;
+    font-weight: bold;
+    width: calc(100% - 200px);
+}
+
+#hero .informacion-contenedor .informacion span {
+    display: inline-block;
+    color: #b5b5b5;
+    margin-bottom: 70px;
+}
+
+
+#hero #resumen {
+    position: absolute;    
+    bottom: 0;    
+    left: 5%;
+    right: 5%;
+    color: #fff;
+    padding: 50px;  /*0 50px; */
+    margin: 0;
+}
+
+/*
+#hero .informacion-contenedor .image-container,
+#hero .informacion-contenedor .image-container img, 
+#hero .informacion-contenedor .informacion,
+#hero .informacion-contenedor .informacion span,
+#hero .informacion-contenedor .resumen,
+#hero .informacion-contenedor .resumen h3,
+#hero .informacion-contenedor .resumen p {
+    display: block;
+}
+
+#hero .resumen {    
+    color: #b5b5b5;
+    margin-top: 20px;
+}
+*/
+
+main {
+    padding: 100px;
+    background-color: black;
+    color: #fffafa;
+    right: 5%;
+    padding-top: 0;
+    /*padding: 20px;*/
+}
+
+ /* 
+  h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+  }
+  */
+    
+section {
+    margin-bottom: 20px;
+}
+  
+h3 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+  
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+li {
+    margin-bottom: 10px;
+}
+
+ul ul {
+  list-style-type: disc; /* Quitar marcadores de puntos */
+  padding-left: 2em; /* Indentar lista secundaria */
+}
+
+  
+footer {
+    background-color: #1f1f1f;
+    padding: 10px;  /*100px;*/
+    text-align: center;
+ }
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    list-style: none;
+}
+
+footer .social-icons li {
+    margin-left: 8px;
+}
+
+footer .social-icons .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+/*
+
+footer .social-icons #LinkedIn {
+    background: #0077b0;
+}
+
+footer .social-icons #GitHub {
+    background: #23272d;
+}
+
+footer .social-icons #Twitter {
+    background: #1da1f2;
+}
+
+footer .social-icons #YouTube {
+    background: #f70000;
+}
+
+footer .social-icons #Platzi {
+    background: #121f3d;
+}
+*/
+  
